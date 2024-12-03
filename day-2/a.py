@@ -1,5 +1,3 @@
-# Answer: 359
-
 with open('day-2/input.txt') as f:
     lines = f.readlines()
 

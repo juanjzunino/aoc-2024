@@ -1,5 +1,3 @@
-# Answer: 24931009
-
 from collections import Counter
 
 with open('day-1/input.txt') as f:

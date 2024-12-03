@@ -1,5 +1,3 @@
-# Answer: 2066446
-
 with open('day-1/input.txt') as f:
     file = f.readlines()
     list_a = []
