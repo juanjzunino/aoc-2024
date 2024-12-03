@@ -2,12 +2,12 @@
 
 from collections import Counter
 
-with open("day-1/input.txt") as f:
+with open('day-1/input.txt') as f:
     file = f.readlines()
     list_a = []
     list_b = []
     for line in file:
-        components = line.split("   ")
+        components = line.split('   ')
         list_a.append(int(components[0].strip()))
         list_b.append(int(components[1].strip()))
     list_a.sort()

@@ -5,3 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.ruff]
+lint.ignore-init-module-imports = true
+lint.extend-select = ["W191", "W291", "W293"]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
